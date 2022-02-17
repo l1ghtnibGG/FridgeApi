@@ -16,19 +16,16 @@ namespace Entities.Configuration
             builder.HasData(
                 new Fridge
                 {
-                    Id = Guid.NewGuid(),
                     Name = "Siemens",
                     OwnerName = "Sasha"
                 },
                 new Fridge
                 {
-                    Id = Guid.NewGuid(),
                     Name = "LG",
                     OwnerName = "Vika"
                 },
                 new Fridge
                 {
-                    Id = Guid.NewGuid(),
                     Name = "Samsung",
                     OwnerName = "Petr"
                 }

@@ -17,21 +17,18 @@ namespace Entities.Configuration
             builder.HasData(
                 new FridgeModel
                 {
-                    Id = Guid.NewGuid(),
                     Name = "KI39FP60",
                     Year= 2021
                 },
 
                 new FridgeModel
                 {
-                    Id = Guid.NewGuid(),
                     Name = "GR-N309 LLB",
                     Year = 2022
                 },
 
                 new FridgeModel
                 {
-                    Id = Guid.NewGuid(),
                     Name = "RB30J3000WW",
                     Year = 2021
                 }

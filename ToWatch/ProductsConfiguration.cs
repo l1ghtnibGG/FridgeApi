@@ -16,19 +16,16 @@ namespace Entities.Configuration
             builder.HasData(
                 new Products
                 {
-                    Id = Guid.NewGuid(),
                     Name = "Banana",
                     DefaultQuantity = 5
                 },
                 new Products
                 {
-                    Id = Guid.NewGuid(),
                     Name = "Meat",
                     DefaultQuantity = 2
                 },
                 new Products
                 {
-                    Id = Guid.NewGuid(),
                     Name = "Milk",
                     DefaultQuantity = 1
                 }

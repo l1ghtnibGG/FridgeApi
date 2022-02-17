@@ -17,32 +17,26 @@ namespace Entities.Configuration
             builder.HasData(
                 new FridgeProducts
                 {
-                    Id = Guid.NewGuid(),
                     Quantity = 5
                 },
                 new FridgeProducts
                 {
-                    Id = Guid.NewGuid(),
                     Quantity = 2
                 },
                 new FridgeProducts
                 {
-                    Id = Guid.NewGuid(),
                     Quantity = 6
                 },
                 new FridgeProducts
                 {
-                    Id = Guid.NewGuid(),
                     Quantity = 6
                 },
                 new FridgeProducts
                 {
-                    Id = Guid.NewGuid(),
                     Quantity = 1
                 },
                 new FridgeProducts
                 {
-                    Id = Guid.NewGuid(),
                     Quantity = 10
                 }
                 );
